@@ -27,10 +27,10 @@ show
 </div>
 <div class="d-flex justify-content-between">
     <div>
-        <a role="button" class="btn btn-secondary" href="{{route('posts.index')}}">Home</a>
+        <a role="button" class="btn btn-primary" href="{{route('posts.index')}}">Home</a>
     </div>
     <div>
-        <a role="button" class="btn btn-danger" href="{{route('posts.show', $post->id-1)}}">Back</a>
+        <a role="button" class="btn btn-secondary" href="{{route('posts.show', $post->id-1)}}">Prev</a>
         <a role="button" class="btn btn-success" href="{{route('posts.show', $post->id+1)}}">Next</a>
     </div>
 </div>
